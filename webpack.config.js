@@ -64,9 +64,9 @@ const config = {
       }
     })
   ],
-  externals: {
-    vue: "Vue"
-  }
+  // externals: {
+  //   vue: "Vue"
+  // }
 }
 
 
