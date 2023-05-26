@@ -1,0 +1,38 @@
+{
+  "name": "webpack-v3ts-demo",
+  "version": "1.0.0",
+  "description": "webpack + vue3 + ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lruij/webpack-v3ts-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lruij/webpack-v3ts-demo/issues"
+  },
+  "homepage": "https://github.com/lruij/webpack-v3ts-demo#readme",
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.3.4",
+    "css-loader": "^6.7.4",
+    "friendly-errors-webpack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^5.5.1",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.3",
+    "typescript": "^5.0.4",
+    "vue": "^3.3.4",
+    "vue-loader": "^17.0.1",
+    "webpack": "^5.84.0",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  }
+}
